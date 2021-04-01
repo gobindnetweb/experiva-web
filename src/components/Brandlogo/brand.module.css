@@ -1,0 +1,18 @@
+.Brand {
+  margin: 0;
+  padding: 0;
+}
+.img {
+  background-image: url("../../assets/images/sec_banner.jpg");
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  margin-bottom: 70px;
+}
+.oleo {
+  color: #ff5722;
+  position: absolute;
+  top: 150px;
+  margin-left: 140px;
+}

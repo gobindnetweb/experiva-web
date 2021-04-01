@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.primaryColor {
+  color: #ff5722 !important;
+}
+
+.primaryBackgroundColor {
+  background-color: #ff5722 !important;
+}
+
+.oleoScriptRegular {
+  font-family: "Oleo Script", cursive;
+  font-weight: 400;
+}
+
+.oleoScriptBold {
+  font-family: "Oleo Script", cursive;
+  font-weight: bold;
+  font-size: 46px;
+  text-align: center;
+}
+
+.openSansFont {
+  font-family: "Open Sans", sans-serif;
+}
+
+.openSans {
+  text-align: left;
+  display: block;
+  font-weight: bold;
+}
+
+.singa {
+  color: #ff5722;
+}
+
+.text-light {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.oleoScript {
+  font-family: "Oleo Script", cursive;
+}
+
+.Allura {
+  font-family: "Allura", cursive;
+}

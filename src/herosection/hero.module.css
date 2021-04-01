@@ -1,0 +1,16 @@
+.Hero {
+  margin: 0;
+  padding: 0;
+}
+.img {
+  background-image: url("../assets/images/banner.jpg");
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 480px;
+}
+.text {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}

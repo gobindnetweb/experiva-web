@@ -1,0 +1,82 @@
+.Navbar {
+  margin: 0;
+  padding: 0;
+}
+
+.img {
+  background-image: url("../assets/images/logo.png");
+  width: 100%;
+  background-size: 21%;
+  background-repeat: no-repeat;
+  min-height: 48px;
+  margin-top: 8px;
+  margin-left: 200px;
+}
+nav {
+  height: 70px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.menu {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 200px;
+}
+
+.menu a {
+  text-align: none;
+  color: gray;
+  font-weight: bold;
+  position: relative;
+  text-decoration: none;
+  line-height: 25px;
+  padding: 8px;
+}
+.menu > a:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 0%;
+  height: 4px;
+  background-color: gray;
+}
+.menu > a:hover {
+  color: #ff5722;
+}
+.menu > a:hover::before {
+  width: 100%;
+  background-color: #ff5722;
+}
+
+.logo {
+  color: #ff5722 !important;
+}
+
+a.active {
+  text-align: none;
+  color: #ff5722;
+  font-weight: bold;
+  position: relative;
+  text-decoration: none;
+  line-height: 25px;
+  padding: 8px;
+}
+
+a.active::before {
+  width: 100%;
+  background-color: #ff5722;
+}

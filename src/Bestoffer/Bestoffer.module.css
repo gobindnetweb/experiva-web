@@ -1,0 +1,23 @@
+.Bestoffer {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.singapore {
+  font-size: 200%;
+  margin-left: 60%;
+}
+
+.images {
+  height: 250px;
+  object-fit: cover;
+  max-width: 140px;
+}
+.offer2 {
+  margin-right: 10%;
+}
+.setmarg {
+  border-spacing: 15px;
+  margin-left: -50px;
+}
