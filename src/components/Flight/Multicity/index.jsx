@@ -4,9 +4,11 @@ import FormLabel from "../../FormLabel";
 import { DatePicker } from "antd";
 import { PlusCircleOutlined } from "@ant-design/icons";
 import AirportAutoComplete from "../../AirportAutoComplete";
+import { useHistory } from "react-router-dom";
 
 const Multicity = ({ openChooseTraveller }) => {
   const openTravellerRef = useRef();
+  const history = useHistory();
   return (
     <Row>
       <Col span={24} className="my-2">
@@ -50,7 +52,13 @@ const Multicity = ({ openChooseTraveller }) => {
       </Col>
 
       <Col span={24} className="my-3">
-        <Button type="primary" shape="round" size="large" block>
+        <Button
+          onClick={() => history.push("/flight-search")}
+          type="primary"
+          shape="round"
+          size="large"
+          block
+        >
           Search Flight
         </Button>
       </Col>

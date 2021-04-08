@@ -1,10 +1,13 @@
 import React, { useRef } from "react";
+import { useHistory } from "react-router-dom";
 import { Button, Input, Row, Col, DatePicker } from "antd";
 import FormLabel from "../../FormLabel";
 import AirportAutoComplete from "../../AirportAutoComplete";
 
 const OneWay = ({ openChooseTraveller }) => {
   const openTravellerRef = useRef();
+
+  const history = useHistory();
   return (
     <Row>
       <Col span={24} className="my-2">
@@ -38,7 +41,13 @@ const OneWay = ({ openChooseTraveller }) => {
       </Col>
 
       <Col span={24} className="my-3">
-        <Button type="primary" shape="round" size="large" block>
+        <Button
+          onClick={() => history.push("/flight-search")}
+          type="primary"
+          shape="round"
+          size="large"
+          block
+        >
           Search Flight
         </Button>
       </Col>

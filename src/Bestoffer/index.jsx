@@ -19,14 +19,15 @@ const Bestoffer = () => {
         </div>
       </div>
 
-      <div className="px-40">
+      <div className="px-32">
         <Row>
-          <Col span={12}>
+          <Col span={12} className="border-r-2 px-8 py-4">
             <div className="openSansFont">
               <div className="openSans">
                 <h2 className="font-semibold text-light">Offer of the week</h2>
               </div>
             </div>
+
             <Row>
               <Col span={8}>
                 <div className="h-full flex flex-col justify-around">
@@ -68,13 +69,10 @@ const Bestoffer = () => {
             </Row>
           </Col>
 
-          <Col span={12}>
+          <Col span={12} className="border-l-2 px-8 py-4">
             <div className="openSansFont">
               <div className="openSans">
-                <h2
-                  className={styles.write}
-                  style={{ color: "rgba(0, 0, 0, 0.54)" }}
-                >
+                <h2 className="ml-5" style={{ color: "rgba(0, 0, 0, 0.54)" }}>
                   New promotions
                 </h2>
               </div>
@@ -82,7 +80,7 @@ const Bestoffer = () => {
 
             <Row>
               <Col span={16}>
-                <div class="space-y-6">
+                <div class="space-y-6 ml-5">
                   <img src={img1} alt="" />
 
                   <img src={img2} alt="" />

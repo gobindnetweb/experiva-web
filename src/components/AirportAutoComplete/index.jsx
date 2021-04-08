@@ -34,7 +34,6 @@ const AirportAutoComplete = () => {
       showSearch
       value={selectedAirport?.name}
       placeholder="Chandigarh"
-      size="large"
       className="w-full"
       optionFilterProp="name"
       filterOption={false}

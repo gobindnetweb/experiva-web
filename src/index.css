@@ -22,14 +22,6 @@ code {
     monospace;
 }
 
-.primaryColor {
-  color: #ff5722 !important;
-}
-
-.primaryBackgroundColor {
-  background-color: #ff5722 !important;
-}
-
 .oleoScriptRegular {
   font-family: "Oleo Script", cursive;
   font-weight: 400;
@@ -66,4 +58,23 @@ code {
 
 .Allura {
   font-family: "Allura", cursive;
+}
+
+.flight {
+  background-color: #c14242;
+}
+
+.header {
+  margin-left: 185px;
+}
+.multi {
+  margin-left: 200px;
+}
+
+.multicity {
+  margin-left: 45px;
+}
+
+.header-margin {
+  margin-top: 70px;
 }

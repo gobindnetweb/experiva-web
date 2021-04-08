@@ -15,11 +15,12 @@
 nav {
   height: 70px;
   background-color: white;
+  color: gray;
   display: flex;
   justify-content: space-around;
   align-items: center;
 
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -38,7 +39,7 @@ nav {
 
 .menu a {
   text-align: none;
-  color: gray;
+  color: gray !important;
   font-weight: bold;
   position: relative;
   text-decoration: none;
@@ -54,6 +55,7 @@ nav {
   height: 4px;
   background-color: gray;
 }
+
 .menu > a:hover {
   color: #ff5722;
 }
@@ -65,7 +67,7 @@ nav {
 .logo {
   color: #ff5722 !important;
 }
-
+/*
 a.active {
   text-align: none;
   color: #ff5722;
@@ -79,4 +81,9 @@ a.active {
 a.active::before {
   width: 100%;
   background-color: #ff5722;
+}*/
+
+nav a.activeClass {
+  color: #ff5722 !important;
+  border-bottom: 4px solid red;
 }

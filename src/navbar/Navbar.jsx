@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import styles from "./navbar.module.css";
 
 const Navbar = () => {
@@ -7,13 +8,21 @@ const Navbar = () => {
       <nav>
         <div className={styles.img}></div>
         <div className={styles.menu}>
-          <a href="#">Home</a>
-          <a href="#">Flights</a>
-          <a href="#">Hotels</a>
-          <a href="#">Blogs</a>
-          <a href="#" className={styles.active}>
+          <NavLink exact activeClassName={styles.activeClass} to="/">
+            Home
+          </NavLink>
+          <NavLink
+            exact
+            activeClassName={styles.activeClass}
+            to="/flight-search"
+          >
+            Flights
+          </NavLink>
+          <NavLink to="#">Hotels</NavLink>
+          <NavLink to="#">Blogs</NavLink>
+          <NavLink to="#" className={styles.active}>
             Services
-          </a>
+          </NavLink>
           <a className={styles.logo} href="#">
             Login/Sign up
           </a>
