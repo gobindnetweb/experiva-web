@@ -16,6 +16,7 @@ const Hero = () => {
             position: "absolute",
             top: 128,
             left: 20,
+            zIndex: 500,
           }}
         >
           <div className="ml-20">

@@ -11,6 +11,7 @@
   min-height: 48px;
   margin-top: 8px;
   margin-left: 200px;
+  cursor: pointer;
 }
 nav {
   height: 70px;

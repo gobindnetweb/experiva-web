@@ -281,14 +281,12 @@ const Flightheader = ({ openChooseTraveller, tripType, changeTripType }) => {
         {tripType === "multishop" && (
           <Row>
             <Col span={24}>
-              <h1>{count}</h1>
               <div className="font-bold ml-48 mt-0 mb-2">
                 <Button type="text" onClick={SetCity}>
                   <span className="text-sm text-red-500 font-semibold flex items-center justify-center">
                     Add City
                   </span>
                 </Button>
-
                 {count > 0 ? (
                   <Button type="text" onClick={DecCity}>
                     <span className="text-sm text-red-500 font-semibold flex items-center justify-center">

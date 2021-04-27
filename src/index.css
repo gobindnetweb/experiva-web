@@ -22,6 +22,14 @@ code {
     monospace;
 }
 
+.primaryColor {
+  color: #ff5722 !important;
+}
+
+.primaryBackgroundColor {
+  background-color: #ff5722 !important;
+}
+
 .oleoScriptRegular {
   font-family: "Oleo Script", cursive;
   font-weight: 400;
@@ -77,4 +85,15 @@ code {
 
 .header-margin {
   margin-top: 70px;
+}
+
+.loginimg {
+  background-image: url("./assets/images/flight.png");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 680px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border-radius: 20px;
 }

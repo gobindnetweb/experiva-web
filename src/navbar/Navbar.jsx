@@ -1,12 +1,15 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import styles from "./navbar.module.css";
 
 const Navbar = () => {
+  const history = useHistory();
   return (
     <>
       <nav>
-        <div className={styles.img}></div>
+        <div className={styles.img} onClick={() => history.push("/")}></div>
+
         <div className={styles.menu}>
           <NavLink exact activeClassName={styles.activeClass} to="/">
             Home
@@ -23,9 +26,9 @@ const Navbar = () => {
           <NavLink to="#" className={styles.active}>
             Services
           </NavLink>
-          <a className={styles.logo} href="#">
+          <NavLink className={styles.logo} to="/login">
             Login/Sign up
-          </a>
+          </NavLink>
         </div>
       </nav>
     </>

@@ -42,7 +42,10 @@ const Flightsidebar = () => {
                 </p>
               </div>
             </div>
-            <h2 className="font-bold " style={{ color: "#ff5722" }}>
+            <h2
+              className="font-bold "
+              style={{ color: "#ff5722", backgroundColor: "red" }}
+            >
               SECURITY
             </h2>
             <div class="border-b-2 border-red-500 mb-2">
